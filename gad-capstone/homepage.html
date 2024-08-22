@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batangas State University - GAD</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#webinars">Webinars</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#assessment">Assessment</a></li>
+                <li><a href="#connect">Connect With Us</a></li>
+                <li class="user-icon">
+                    <a href="#login"><img src="assets/user_icon.png" alt="User Icon"></a>
+                    <div class="dropdown">
+                        <a href="#login">Login</a>
+                        <a href="#signup">Sign Up</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="assets/1.png" alt="Image 1">
+                <img src="assets/2.png" alt="Image 2">
+                <img src="assets/3.png" alt="Image 3">
+            </div>
+            <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+            <a class="next" onclick="moveSlide(1)">&#10095;</a>
+        </div>
+    </section>
+
+    <script src="homepage.js"></script>
+</body>
+
+</html>
